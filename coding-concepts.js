@@ -40,15 +40,14 @@ const index = 1
 // --------------------4) What will this log?
 
 const weekendDays = ["saturday", "sunday"]
-// console.log(weekendDays.toUpperCase())
+//  console.log(weekendDays.toUpperCase())
 
-// a) Your answer: SATURDAY SUNDAY
-// b) Verify and explain: This particular command will capitilize the content inside of the function
-
+// a) Your answer: Type Error
+// b) Verify and explain: This particular command will produce an error because the "toUpperCase" operator is specifically for a string not an array
 // --------------------5) What will this log?
 
 const dataTypes = ["number", "string", "Boolean", "undefined"]
-// console.log(typeof dataTypes.length)
+ console.log(typeof dataTypes.length)
 
-// a) Your answer: string, string, string, string, string, 4
-// b) Verify and explain: This will be the output because the typeof operator will return the data type whoch will be string and the length method will return the index length of the array
+// a) Your answer: number
+// b) Verify and explain: using the length opertaor will retun the number of values inside of this array. When we add the typeOf operator to that we are bascially asking which data type will be return when we call on the length operator. In this case it will be a number.
